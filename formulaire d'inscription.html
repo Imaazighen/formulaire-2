@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> Formulaire d'inscription </legend>
+
+        <br>
+
+<table>
+            <tr>
+                <td><label>Nom</label></td>
+                    <td width="110px"></td>
+                    <td><input type="text" placeholder="saisir votre nom"></td>
+            </tr>
+</table>
+                
+                
+
+        <br><br>
+
+<table>
+            <tr>
+                <td><label>Prénom</label></td>
+                    <td width="91px"></td>
+                    <td><input type="text" placeholder="saisir votre prénom"></td>
+            </tr>
+</table>
+
+        <br><br>
+
+<table>
+            <tr>
+                <td><label>Email</label></td>
+                    <td width="102px"></td>
+                    <td><input type="text" placeholder="saisir votre Email"></td>
+            </tr>
+</table>
+
+        <br><br>
+
+<table>
+            <tr>
+                <td><label>Sexe</label></td>
+                    <td width="108px"></td>
+                    <td>Masculin<input type="radio" name="sexe" value="masculin"></td>
+                    <td>Féminin<input type="radio" name="sexe" value="féminin"></td>
+            </tr>
+</table>
+
+        <br><br>
+
+<table>
+            <tr>
+                <td><label>Photo</label></td>
+                <td width="105px"></td>
+                <td><input type="file" id="fichier" name="choisissez un fichier"  value="choisissez un fichier" accept="image/png, image/jpeg"></td>
+            </tr>
+</table> 
+
+        <br><br>
+
+<table> 
+            <tr>      
+                <td><label>Pays</label></td>
+                <td width="112px"></td>
+                <td><select name="pays">
+                    <option value="france">France</option>
+                    <option value="Allemagne">Allemagne</option>
+                    <option value="royaume-uni">Royaume-uni</option>
+                </select></td>
+            </tr>
+</table>           
+
+        <br><br>
+
+<table>
+            <tr>
+                <td><label>Les langages préferés</label></td>
+                 <td><select name="langage" multiple size="3">
+                     <option value="JAVA">JAVA</option>
+                     <option value="C">C</option>
+                     <option value="C++">C++</option>
+                     <option value="PHP">PHP</option>
+                 </select></td>
+                    <td>(Pour faire plusieurs choix maintenir la touche CTRL enfoncée)</td>
+            </tr>
+</table>
+
+        <br><br>
+
+<table>        
+            <tr>
+                <td><label>Domaines d'activités</label></td>
+                <td width="10px"></td>
+                    <td><input type="checkbox" name="domaines" value="Informatique">Informatique</td>
+                    <td><input type="checkbox" name="domaines" value="Gestion">Gestion</td>
+                    <td><input type="checkbox" name="domaines" value="Pédagogie">Pédagogie</td>
+            </tr>
+</table>
+
+        <br><br>
+
+            <input type="submit" name="envoyer" value="Envoyer">
+            <input type="reset" name="annuler" value="Annuler">
+
+    </form>
+</body>
+</html>
